@@ -2,6 +2,7 @@
 ---
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
+@import url(https://fonts.googleapis.com/css?family=Questrial|Varela+Round);
 
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
@@ -45,5 +46,5 @@
 // Custom CSS below
 
 body {
-    background-color: #050505 !important;
+    font-family: 'Questrial', sans-serif;
 }
